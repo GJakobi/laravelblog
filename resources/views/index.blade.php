@@ -21,18 +21,18 @@
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
-            <h2 class="text-4xl font-extrabold text-gray-60">
+            <h2 class="text-3xl font-extrabold text-gray-60">
                 Struggling to be a better developer?
             </h2>
 
-            <p class="py-8 text-gray-500 text-xl">
+            <p class="py-8 text-gray-500 text-s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
 
-            <p class="font-extrabold text-gray-600 text-xl pb-9">
+            <p class="font-extrabold text-gray-600 text-s pb-9">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -62,5 +62,19 @@
         <span class="font-extrabold block text-4xl py-1">
             Winning
         </span>
+    </div>
+
+    <div class="text-center py-15">
+        <span class="uppercase text-s text-gray-400">
+            Blog
+        </span>
+
+        <h2 class="text-4xl font-bold py-10">
+            Recent Posts
+        </h2>
+
+        <p class="m-auto w-4/5 text-gray-500">
+            Lorem ipsum ahahha
+        </p>
     </div>
 @endsection
