@@ -11,7 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
@@ -45,7 +45,14 @@
             </div>
         </header>
 
-        @yield('content')
+        <div>
+            @yield('content')
+        </div>
+
+        <div>
+            @include('layouts.footer')
+        </div>
+
     </div>
 </body>
 </html>
